@@ -78,7 +78,7 @@ header {
     list-style: none;
     display: inline-block;
     margin-right: 25px;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 
 .bottom_header ul li a {
@@ -86,6 +86,7 @@ header {
     color: grey;
     font-size: 14px;
     font-weight: bold;
+    padding-bottom: 8px;
 }
 
 .bottom_header ul li .active {
@@ -114,12 +115,21 @@ main {
 
 .main_container p {
     font-size: 13px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .main_container a {
     text-decoration: none;
     color: #2963e0;
+}
+
+.main_container ol li {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.main_container .bottom_ol li {
+    margin-inline-start: 20px;
 }
 
 footer {
