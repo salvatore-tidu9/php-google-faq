@@ -114,6 +114,11 @@ main {
 
 .main_container p {
     font-size: 13px;
+    margin-top: 20px;
+}
+
+.main_container a {
+    text-decoration: none;
 }
 
 footer {
